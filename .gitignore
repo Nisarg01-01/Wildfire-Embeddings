@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
+
+# Manuscripts / writing artifacts (never publish)
+manuscript*/
+manuscripts/
+*.doc
+*.docx
+*.tex
+*.bib
+*.rtf
+
+# Large model artifacts
+analysis/*.pt
+analysis/*.pth
+analysis/*.ckpt
+
+# Data (private for now)
+analysis/data/
+
+# Images / figure exports (private for now)
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.svg
+*.pdf
+
+# Optional local exports
+*.npz
+*.npy
+*.tif
+*.tiff
